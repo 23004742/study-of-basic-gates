@@ -71,7 +71,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  
  RegisterNumber: 212223230010
  ```
-module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+module ex01(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
 input a,b;
 output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
 and(Y1,a,b);
