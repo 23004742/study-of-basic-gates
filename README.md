@@ -64,9 +64,11 @@ Y= A⊕B
 
 **PROGRAM**
 
+
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by:AKASH KUMAR M.
+ 
  RegisterNumber: 212223230010
  ```
 module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
