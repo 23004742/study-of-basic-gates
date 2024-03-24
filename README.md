@@ -6,7 +6,7 @@ To study and verify the truth table of logic gates in Quartus II using Verilog p
 
 **Equipments Required:**
 
-Software – Quartus prime
+Software – Quartus prime 
 
 **Theory**
 
@@ -64,12 +64,14 @@ Y= A⊕B
 
 **PROGRAM**
 
+
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by:L.yagnesh kumar reddy
- RegisterNumber:212223100024 
+ Developed by: AKASH KUMAR M.
+ 
+ RegisterNumber: 212223230010
  ```
- module ex01(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+module ex01(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
 input a,b;
 output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
 and(Y1,a,b);
@@ -80,19 +82,25 @@ nand(Y5,a,b);
 nor(Y6,a,b);
 xnor(Y7,a,b);
 endmodule
-'''
+```
+ 
+
 **Logic symbol & Truthtable**
 
+![image](https://github.com/sudharsanakumar18/study-of-basic-gates/assets/138849110/716b15ce-c8de-41ea-88b9-8af006cea701)
+
 **RTL realization Output:**
- 
-![Screenshot 2024-03-24 123525](https://github.com/23004742/study-of-basic-gates/assets/150319318/cd8d1040-2a41-47d0-9d60-104efa0a7f50)
+
+![l-out](https://github.com/akash7812/study-of-basic-gates/assets/146819826/71d74c96-af9f-4e96-b3ba-49ad8ee8bf70)
+
 
 **RTL**
 
-![Screenshot 2024-03-24 123617](https://github.com/23004742/study-of-basic-gates/assets/150319318/033a1dfb-9267-471d-b63c-cbacceaeab81)
+![rtl-output](https://github.com/akash7812/study-of-basic-gates/assets/146819826/8826c4ba-a2ab-45f6-909d-84484dc79a27)
+
 
 **Result:**
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
 
